@@ -1,3 +1,18 @@
+* {
+	box-sizing: border-box;
+}
+
+.flex-left {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 5;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
 body {
 	margin: 0;
 	padding: 10px;
@@ -9,15 +24,12 @@ body {
 	padding: 15px;
 	border: 1px solid #CCCCCC;
 	border-radius: 5px;
-	width: 65%;
 }
 
 .right {
 	padding: 15px;
 	border: 1px solid #CCCCCC;
 	border-radius: 5px;
-	width: 25%;
-	float: right;
 }
 
 p {
