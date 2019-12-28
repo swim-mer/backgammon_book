@@ -1,4 +1,31 @@
 body {
 	margin: 0;
-	padding: 0;
+	padding: 10px;
+	color: #d7dff7;
+	background-color: #2e468f;
+}
+
+.left {
+	padding: 15px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	width: 65%;
+}
+
+.right {
+	padding: 15px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	width: 25%;
+	float: right;
+}
+
+p {
+	padding: 2px;
+}
+
+.bracket {
+	height: 500px;
+	background: url("../images/backgammon_tourney_bracket.jpg") no-repeat center;
+	background-size: 600px 463px;
 }
