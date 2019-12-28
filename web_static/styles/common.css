@@ -23,13 +23,20 @@ body {
 .left {
 	padding: 15px;
 	border: 1px solid #CCCCCC;
-	border-radius: 5px;
+}
+
+.left-top {
+	border-radius: 5px 0px 0px 0px;
+}
+
+.left-bottom {
+	border-radius: 0px 0px 0px 5px;
 }
 
 .right {
 	padding: 15px;
 	border: 1px solid #CCCCCC;
-	border-radius: 5px;
+	border-radius: 0px 5px 5px 0px;
 }
 
 p {
