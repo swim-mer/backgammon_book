@@ -14,10 +14,10 @@
 }
 
 body {
-	margin: 0;
-	padding: 10px;
-	color: #d7dff7;
-	background-color: #2e468f;
+	margin: 10;
+	padding: 15px;
+	color: #000000;
+	background-color: #FFFFFF;
 }
 
 .left {
@@ -34,12 +34,12 @@ body {
 }
 
 .right {
-	padding: 15px;
+	padding: 25px;
 	border: 1px solid #CCCCCC;
 	border-radius: 0px 5px 5px 0px;
 }
 
-p {
+p, h4 {
 	padding: 2px;
 }
 
